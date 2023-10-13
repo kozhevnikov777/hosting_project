@@ -21,7 +21,7 @@ services:
       - db
     container_name: project_app
   db:
-    image: mysql:8.0
+    image: mysql:8.1
     restart: always
     volumes:
       - ./tmp/db:/var/lib/mysql
